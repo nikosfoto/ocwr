@@ -29,7 +29,7 @@ To get started with the OCWR project, follow these steps:
 Once you have cloned the repository and installed the dependencies, you can use the provided notebooks to generate spectrograms from the raw data, train the classification models, and evaluate their performance. Specifically:
 
 - **Create spectrograms from raw data:** 
-  Use `dataset_creation.ipynb` to generate spectrograms from the raw radar data. The numpy arrays will be saved in the sub-directory datasets/. The resulting NumPy arrays will be saved in the `datasets/` sub-directory. To save time and avoid running the code to create spectrograms, you can download the pre-processed `datasets/` folder [here](https://tud365-my.sharepoint.com/personal/gzanardini_tudelft_nl/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgzanardini%5Ftudelft%5Fnl%2FDocuments%2FOCWR%2Focwr%2Fdatasets&ga=1).
+  Use `dataset_creation.ipynb` to generate spectrograms from the raw radar data. The resulting NumPy arrays will be saved in the `datasets/` sub-directory. To save time and avoid running the code to create spectrograms, you can download the pre-processed `datasets/` folder [here](https://tud365-my.sharepoint.com/personal/gzanardini_tudelft_nl/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgzanardini%5Ftudelft%5Fnl%2FDocuments%2FOCWR%2Focwr%2Fdatasets&ga=1).
 - **Traditional feature-based classifiers + evaluation:**
   Use `feature_based_classification.ipynb` to train and evaluate classifiers like KNN, Random Forest, XGBoost, and SVM.
 - **ResNet-18 and ResNet-34 transfer learning:**
