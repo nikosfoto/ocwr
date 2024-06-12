@@ -1,3 +1,5 @@
 Dataset_848/
 *.pkl
 *.npy
+.vscode/
+*.pdf
